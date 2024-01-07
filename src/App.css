@@ -75,7 +75,7 @@ body {
 
 .square.x,
 .square.o {
-  animation: pop-in 2.0s;
+  animation: pop-in 0.3s;
 }
 
 .reset {

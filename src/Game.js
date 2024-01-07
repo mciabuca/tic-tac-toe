@@ -36,7 +36,7 @@ const Game = () => {
             return;
         }
         const newSquares = squares.slice();
-        newSquares[i] = xIsNext ? 'X' : 'O';
+        newSquares[i] = xIsNext ? 'x' : 'o';
         setSquares(newSquares);
         setXIsNext(!xIsNext);
     };

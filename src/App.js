@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
         <h1>Tic-Tac-Toe Game</h1>
         <button className="toggle" onClick={toggleDarkMode}>Switch to {darkMode ? 'Light' : 'Dark'} Mode</button>      
-</header>
+      </header>
       <Game />
     </div>
   );
