@@ -21,11 +21,11 @@ const calculateWinner = (squares) => {
   };
   
 
-const Square = ({ value, onClick }) => (
-  <button className="square" onClick={onClick}>
-    {value}
-  </button>
-);
+  const Square = ({ value, onClick }) => (
+    <button className={`square ${value}`} onClick={onClick}>
+      {value}
+    </button>
+  );
 
 const Game = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
